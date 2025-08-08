@@ -6,19 +6,30 @@ const path = require('path');
 const itemsRouter = require('./routes/items');
 const statsRouter = require('./routes/stats');
 const { initRuntimeConfig } = require('./config/runtimeConfig');
+const logger = require('./middleware/logger');
+const { errorHandler } = require('./middleware/errorHandler');
 require('dotenv').config();
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 4001;
+const CLIENT_PORT = 3000;
 
 // Middleware
-app.use(cors({ origin: `http://localhost:${PORT}` }));
+app.use(cors({ origin: `http://localhost:${ CLIENT_PORT}` })); //chisom: server and client shouldnt run instances on the same port
 app.use(express.json());
 app.use(morgan('dev'));
+app.use(logger) //chisom maxwell: register logger middleware
 
 // Routes
 app.use('/api/items', itemsRouter);
 app.use('/api/stats', statsRouter);
+
+app.use((err, req, res, next) => { //chisom: register error handler
+  const status = err.status || err.statusCode || 500;
+  const message = err.message || 'Internal Server Error';
+  console.error(err);
+  res.status(status).json(message);
+});
 
 // Serve static files in production
 if (process.env.NODE_ENV === 'production') {

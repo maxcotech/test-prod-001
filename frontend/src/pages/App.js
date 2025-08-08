@@ -3,6 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Items from './Items';
 import ItemDetail from './ItemDetail';
 import { DataProvider } from '../state/DataContext';
+import "../styles/index.css";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Link to="/">Items</Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Items />} />
+        <Route path="/" exact element={<Items />} />
         <Route path="/items/:id" element={<ItemDetail />} />
       </Routes>
     </DataProvider>

@@ -1,7 +1,632 @@
 [
-  { "id": 1, "name": "Laptop Pro", "category": "Electronics", "price": 2499 },
-  { "id": 2, "name": "Noise Cancelling Headphones", "category": "Electronics", "price": 399 },
-  { "id": 3, "name": "Ultra‑Wide Monitor", "category": "Electronics", "price": 999 },
-  { "id": 4, "name": "Ergonomic Chair", "category": "Furniture", "price": 799 },
-  { "id": 5, "name": "Standing Desk", "category": "Furniture", "price": 1199 }
+  {
+    "id": 1,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2499
+  },
+  {
+    "id": 2,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 399
+  },
+  {
+    "id": 3,
+    "name": "Ultra\u2011Wide Monitor",
+    "category": "Electronics",
+    "price": 999
+  },
+  {
+    "id": 4,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 799
+  },
+  {
+    "id": 5,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1199
+  },
+  {
+    "id": 6,
+    "name": "Bluetooth Speaker",
+    "category": "Accessories",
+    "price": 2521
+  },
+  {
+    "id": 7,
+    "name": "Smartwatch",
+    "category": "Office Supplies",
+    "price": 1300
+  },
+  {
+    "id": 8,
+    "name": "Graphics Tablet",
+    "category": "Furniture",
+    "price": 1284
+  },
+  {
+    "id": 9,
+    "name": "Tablet",
+    "category": "Electronics",
+    "price": 2470
+  },
+  {
+    "id": 10,
+    "name": "LED Strip",
+    "category": "Appliances",
+    "price": 2734
+  },
+  {
+    "id": 11,
+    "name": "Printer",
+    "category": "Appliances",
+    "price": 1932
+  },
+  {
+    "id": 12,
+    "name": "Bookshelf",
+    "category": "Accessories",
+    "price": 1081
+  },
+  {
+    "id": 13,
+    "name": "Wireless Mouse",
+    "category": "Furniture",
+    "price": 311
+  },
+  {
+    "id": 14,
+    "name": "Router",
+    "category": "Appliances",
+    "price": 2788
+  },
+  {
+    "id": 15,
+    "name": "Desk Lamp",
+    "category": "Appliances",
+    "price": 1297
+  },
+  {
+    "id": 16,
+    "name": "Air Purifier",
+    "category": "Accessories",
+    "price": 2266
+  },
+  {
+    "id": 17,
+    "name": "Scanner",
+    "category": "Electronics",
+    "price": 256
+  },
+  {
+    "id": 18,
+    "name": "Tablet",
+    "category": "Appliances",
+    "price": 1418
+  },
+  {
+    "id": 19,
+    "name": "LED Strip",
+    "category": "Electronics",
+    "price": 202
+  },
+  {
+    "id": 20,
+    "name": "Air Purifier",
+    "category": "Appliances",
+    "price": 692
+  },
+  {
+    "id": 21,
+    "name": "Router",
+    "category": "Accessories",
+    "price": 508
+  },
+  {
+    "id": 22,
+    "name": "Bean Bag",
+    "category": "Office Supplies",
+    "price": 589
+  },
+  {
+    "id": 23,
+    "name": "Gaming Keyboard",
+    "category": "Accessories",
+    "price": 2150
+  },
+  {
+    "id": 24,
+    "name": "Smartphone",
+    "category": "Furniture",
+    "price": 1768
+  },
+  {
+    "id": 25,
+    "name": "Office Desk",
+    "category": "Accessories",
+    "price": 1458
+  },
+  {
+    "id": 26,
+    "name": "Router",
+    "category": "Furniture",
+    "price": 1919
+  },
+  {
+    "id": 27,
+    "name": "Smartwatch",
+    "category": "Accessories",
+    "price": 764
+  },
+  {
+    "id": 28,
+    "name": "Smartphone",
+    "category": "Electronics",
+    "price": 1628
+  },
+  {
+    "id": 29,
+    "name": "Wireless Mouse",
+    "category": "Accessories",
+    "price": 2917
+  },
+  {
+    "id": 30,
+    "name": "Printer",
+    "category": "Appliances",
+    "price": 2707
+  },
+  {
+    "id": 31,
+    "name": "LED Strip",
+    "category": "Electronics",
+    "price": 2657
+  },
+  {
+    "id": 32,
+    "name": "Router",
+    "category": "Accessories",
+    "price": 1626
+  },
+  {
+    "id": 33,
+    "name": "Gaming Keyboard",
+    "category": "Furniture",
+    "price": 445
+  },
+  {
+    "id": 34,
+    "name": "Router",
+    "category": "Electronics",
+    "price": 1936
+  },
+  {
+    "id": 35,
+    "name": "Wireless Mouse",
+    "category": "Office Supplies",
+    "price": 803
+  },
+  {
+    "id": 36,
+    "name": "Webcam",
+    "category": "Furniture",
+    "price": 2188
+  },
+  {
+    "id": 37,
+    "name": "Wireless Mouse",
+    "category": "Accessories",
+    "price": 461
+  },
+  {
+    "id": 38,
+    "name": "Tablet",
+    "category": "Office Supplies",
+    "price": 1606
+  },
+  {
+    "id": 39,
+    "name": "Smartphone",
+    "category": "Office Supplies",
+    "price": 1379
+  },
+  {
+    "id": 40,
+    "name": "Printer",
+    "category": "Electronics",
+    "price": 1274
+  },
+  {
+    "id": 41,
+    "name": "Floor Mat",
+    "category": "Furniture",
+    "price": 2186
+  },
+  {
+    "id": 42,
+    "name": "Gaming Keyboard",
+    "category": "Office Supplies",
+    "price": 346
+  },
+  {
+    "id": 43,
+    "name": "Air Purifier",
+    "category": "Electronics",
+    "price": 1122
+  },
+  {
+    "id": 44,
+    "name": "Desk Lamp",
+    "category": "Office Supplies",
+    "price": 1508
+  },
+  {
+    "id": 45,
+    "name": "Graphics Tablet",
+    "category": "Appliances",
+    "price": 2204
+  },
+  {
+    "id": 46,
+    "name": "Bean Bag",
+    "category": "Appliances",
+    "price": 1160
+  },
+  {
+    "id": 47,
+    "name": "Gaming Keyboard",
+    "category": "Appliances",
+    "price": 685
+  },
+  {
+    "id": 48,
+    "name": "Wireless Mouse",
+    "category": "Office Supplies",
+    "price": 1117
+  },
+  {
+    "id": 49,
+    "name": "Bluetooth Speaker",
+    "category": "Accessories",
+    "price": 2938
+  },
+  {
+    "id": 50,
+    "name": "Office Desk",
+    "category": "Furniture",
+    "price": 84
+  },
+  {
+    "id": 51,
+    "name": "LED Strip",
+    "category": "Furniture",
+    "price": 2144
+  },
+  {
+    "id": 52,
+    "name": "LED Strip",
+    "category": "Electronics",
+    "price": 1371
+  },
+  {
+    "id": 53,
+    "name": "Floor Mat",
+    "category": "Appliances",
+    "price": 1746
+  },
+  {
+    "id": 54,
+    "name": "Smartphone",
+    "category": "Accessories",
+    "price": 1537
+  },
+  {
+    "id": 55,
+    "name": "Office Desk",
+    "category": "Accessories",
+    "price": 1721
+  },
+  {
+    "id": 56,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 2026
+  },
+  {
+    "id": 57,
+    "name": "Printer",
+    "category": "Office Supplies",
+    "price": 1006
+  },
+  {
+    "id": 58,
+    "name": "Floor Mat",
+    "category": "Accessories",
+    "price": 885
+  },
+  {
+    "id": 59,
+    "name": "Bookshelf",
+    "category": "Appliances",
+    "price": 323
+  },
+  {
+    "id": 60,
+    "name": "Bluetooth Speaker",
+    "category": "Furniture",
+    "price": 1973
+  },
+  {
+    "id": 61,
+    "name": "Bean Bag",
+    "category": "Office Supplies",
+    "price": 1929
+  },
+  {
+    "id": 62,
+    "name": "Bookshelf",
+    "category": "Office Supplies",
+    "price": 267
+  },
+  {
+    "id": 63,
+    "name": "Webcam",
+    "category": "Furniture",
+    "price": 855
+  },
+  {
+    "id": 64,
+    "name": "Desk Lamp",
+    "category": "Electronics",
+    "price": 842
+  },
+  {
+    "id": 65,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 870
+  },
+  {
+    "id": 66,
+    "name": "Mini Fridge",
+    "category": "Furniture",
+    "price": 2771
+  },
+  {
+    "id": 67,
+    "name": "Bluetooth Speaker",
+    "category": "Accessories",
+    "price": 132
+  },
+  {
+    "id": 68,
+    "name": "Tablet",
+    "category": "Appliances",
+    "price": 829
+  },
+  {
+    "id": 69,
+    "name": "Air Purifier",
+    "category": "Electronics",
+    "price": 1862
+  },
+  {
+    "id": 70,
+    "name": "Wireless Mouse",
+    "category": "Furniture",
+    "price": 1381
+  },
+  {
+    "id": 71,
+    "name": "Tablet",
+    "category": "Electronics",
+    "price": 2987
+  },
+  {
+    "id": 72,
+    "name": "Webcam",
+    "category": "Electronics",
+    "price": 1478
+  },
+  {
+    "id": 73,
+    "name": "Tablet",
+    "category": "Furniture",
+    "price": 2055
+  },
+  {
+    "id": 74,
+    "name": "Graphics Tablet",
+    "category": "Furniture",
+    "price": 764
+  },
+  {
+    "id": 75,
+    "name": "Scanner",
+    "category": "Office Supplies",
+    "price": 2132
+  },
+  {
+    "id": 76,
+    "name": "Air Purifier",
+    "category": "Accessories",
+    "price": 691
+  },
+  {
+    "id": 77,
+    "name": "Router",
+    "category": "Appliances",
+    "price": 1570
+  },
+  {
+    "id": 78,
+    "name": "Smartwatch",
+    "category": "Appliances",
+    "price": 670
+  },
+  {
+    "id": 79,
+    "name": "Printer",
+    "category": "Office Supplies",
+    "price": 1283
+  },
+  {
+    "id": 80,
+    "name": "Air Purifier",
+    "category": "Electronics",
+    "price": 794
+  },
+  {
+    "id": 81,
+    "name": "Coffee Maker",
+    "category": "Electronics",
+    "price": 2094
+  },
+  {
+    "id": 82,
+    "name": "Wireless Mouse",
+    "category": "Appliances",
+    "price": 2776
+  },
+  {
+    "id": 83,
+    "name": "LED Strip",
+    "category": "Office Supplies",
+    "price": 1118
+  },
+  {
+    "id": 84,
+    "name": "Desk Lamp",
+    "category": "Office Supplies",
+    "price": 957
+  },
+  {
+    "id": 85,
+    "name": "Gaming Keyboard",
+    "category": "Office Supplies",
+    "price": 1714
+  },
+  {
+    "id": 86,
+    "name": "Air Purifier",
+    "category": "Appliances",
+    "price": 2403
+  },
+  {
+    "id": 87,
+    "name": "Smartphone",
+    "category": "Appliances",
+    "price": 2175
+  },
+  {
+    "id": 88,
+    "name": "Router",
+    "category": "Office Supplies",
+    "price": 2928
+  },
+  {
+    "id": 89,
+    "name": "Gaming Keyboard",
+    "category": "Office Supplies",
+    "price": 1642
+  },
+  {
+    "id": 90,
+    "name": "Graphics Tablet",
+    "category": "Office Supplies",
+    "price": 2510
+  },
+  {
+    "id": 91,
+    "name": "Office Desk",
+    "category": "Electronics",
+    "price": 1789
+  },
+  {
+    "id": 92,
+    "name": "Office Desk",
+    "category": "Appliances",
+    "price": 2903
+  },
+  {
+    "id": 93,
+    "name": "Coffee Maker",
+    "category": "Office Supplies",
+    "price": 1780
+  },
+  {
+    "id": 94,
+    "name": "Desk Lamp",
+    "category": "Appliances",
+    "price": 1388
+  },
+  {
+    "id": 95,
+    "name": "Desk Lamp",
+    "category": "Accessories",
+    "price": 1689
+  },
+  {
+    "id": 96,
+    "name": "Scanner",
+    "category": "Furniture",
+    "price": 208
+  },
+  {
+    "id": 97,
+    "name": "Tablet",
+    "category": "Accessories",
+    "price": 417
+  },
+  {
+    "id": 98,
+    "name": "LED Strip",
+    "category": "Appliances",
+    "price": 2979
+  },
+  {
+    "id": 99,
+    "name": "Scanner",
+    "category": "Electronics",
+    "price": 545
+  },
+  {
+    "id": 100,
+    "name": "Tablet",
+    "category": "Office Supplies",
+    "price": 804
+  },
+  {
+    "id": 101,
+    "name": "Office Desk",
+    "category": "Furniture",
+    "price": 2107
+  },
+  {
+    "id": 102,
+    "name": "Office Desk",
+    "category": "Furniture",
+    "price": 1263
+  },
+  {
+    "id": 103,
+    "name": "Bookshelf",
+    "category": "Appliances",
+    "price": 814
+  },
+  {
+    "id": 104,
+    "name": "Mini Fridge",
+    "category": "Office Supplies",
+    "price": 178
+  },
+  {
+    "id": 105,
+    "name": "Gaming Keyboard",
+    "category": "Electronics",
+    "price": 199
+  }
 ]

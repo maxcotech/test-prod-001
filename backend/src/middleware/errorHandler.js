@@ -1,4 +1,4 @@
-const axios = require('axios');
+//const axios = require('axios'); //chisom: why are we importing axios ?
 
 const notFound = (req, res, next) => {
   const err = new Error('Route Not Found');
